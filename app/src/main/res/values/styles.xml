@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+        <item name="android:spinnerItemStyle">@style/RobotoSpinnerItemStyle</item>
+        <item name="android:spinnerDropDownItemStyle">@style/RobotoSpinnerDropDownItemStyle</item>
+        <!--<item name="buttonStyle">@style/RobotoButtonStyle</item>-->
+    </style>
+
+    <style name="RobotoTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="RobotoSpinnerItemStyle" parent="android:Widget.Spinner">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="RobotoSpinnerDropDownItemStyle" parent="android:Widget.Spinner.DropDown">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <!--<style name="RobotoButtonStyle" parent="android:Widget.Holo.Button">-->
+        <!--<item name="android:fontFamily">sans-serif-light</item>-->
+    <!--</style>-->
+
+    <!--<style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />-->
+
+    <!--<style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />-->
+
+</resources>
